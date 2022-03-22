@@ -1,4 +1,5 @@
-﻿@model Vidly.ViewModels.CustomerFormViewModel
+﻿@using System.Data.Entity.Core.Metadata.Edm
+@model Vidly.ViewModels.CustomerFormViewModel
 
 @{
     ViewBag.Title = "New";
@@ -11,6 +12,7 @@
     <div class="form-group">
         @Html.LabelFor(m => m.Customer.Name)
         @Html.TextBoxFor(c => c.Customer.Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Customer.Name)
     </div>
     <div class="form-group">
         @Html.LabelFor(m => m.Customer.BirthDate)
@@ -19,6 +21,7 @@
     <div class="form-group">
         @Html.LabelFor(m => m.Customer.MembershipTypeId)
         @Html.DropDownListFor(c => c.Customer.MembershipTypeId, new SelectList(Model.MembershipTypes, "Id", "Name"), "Select Membership Typ", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Customer.MembershipTypeId)
     </div>
     <div class="checkbox">
         <label>
