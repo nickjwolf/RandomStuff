@@ -256,3 +256,5 @@ C:\Users\nicolas.wolf\Desktop\Vidly\RandomStuff\Vidly\Vidly\obj\Debug\Vidly.cspr
 C:\Users\nicolas.wolf\Desktop\Vidly\RandomStuff\Vidly\Vidly\obj\Debug\Vidly.Migrations.updatemebership.resources
 C:\Users\nicolas.wolf\Desktop\Vidly\RandomStuff\Vidly\Vidly\obj\Debug\Vidly.Migrations.addedBirthdae.resources
 C:\Users\nicolas.wolf\Desktop\Vidly\RandomStuff\Vidly\Vidly\obj\Debug\Vidly.Migrations.addedgenretomovie.resources
+C:\Users\nicolas.wolf\Desktop\Vidly\RandomStuff\Vidly\Vidly\obj\Debug\Vidly.csproj.AssemblyReference.cache
+C:\Users\nicolas.wolf\Desktop\Vidly\RandomStuff\Vidly\Vidly\obj\Debug\Vidly.Migrations.addedGenres.resources
