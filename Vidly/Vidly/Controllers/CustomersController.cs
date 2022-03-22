@@ -58,7 +58,7 @@ namespace Vidly.Controllers
             {
                 var viewModel = new CustomerFormViewModel
                 {
-                    Customer = customer,
+                    Customer = new Customer(),
                     MembershipTypes = _context.MembershipTypes.ToList()
                 };
 
@@ -68,7 +68,7 @@ namespace Vidly.Controllers
             if (customer.Id == 0)
             {
                 _context.Customers.Add(customer);
-              
+
             }
             else
             {
@@ -80,8 +80,9 @@ namespace Vidly.Controllers
                 customerInDB.MembershipTypeId = customer.MembershipTypeId;
                 customerInDB.IsSubscribedToNewsletter = customer.IsSubscribedToNewsletter;
             }
-              _context.SaveChanges();
-                return RedirectToAction("Index", "Customers");
+            _context.SaveChanges();
+
+            return RedirectToAction("Index", "Customers");
         }
 
 
