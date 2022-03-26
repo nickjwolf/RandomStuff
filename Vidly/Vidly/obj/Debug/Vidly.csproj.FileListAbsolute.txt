@@ -258,3 +258,11 @@ C:\Users\nicolas.wolf\Desktop\Vidly\RandomStuff\Vidly\Vidly\obj\Debug\Vidly.Migr
 C:\Users\nicolas.wolf\Desktop\Vidly\RandomStuff\Vidly\Vidly\obj\Debug\Vidly.Migrations.addedgenretomovie.resources
 C:\Users\nicolas.wolf\Desktop\Vidly\RandomStuff\Vidly\Vidly\obj\Debug\Vidly.csproj.AssemblyReference.cache
 C:\Users\nicolas.wolf\Desktop\Vidly\RandomStuff\Vidly\Vidly\obj\Debug\Vidly.Migrations.addedGenres.resources
+C:\Users\nicolas.wolf\Desktop\Vidly\RandomStuff\Vidly\Vidly\bin\System.Net.Http.Formatting.dll
+C:\Users\nicolas.wolf\Desktop\Vidly\RandomStuff\Vidly\Vidly\bin\System.Web.Http.dll
+C:\Users\nicolas.wolf\Desktop\Vidly\RandomStuff\Vidly\Vidly\bin\System.Web.Http.WebHost.dll
+C:\Users\nicolas.wolf\Desktop\Vidly\RandomStuff\Vidly\Vidly\bin\System.Net.Http.Formatting.xml
+C:\Users\nicolas.wolf\Desktop\Vidly\RandomStuff\Vidly\Vidly\bin\System.Web.Http.xml
+C:\Users\nicolas.wolf\Desktop\Vidly\RandomStuff\Vidly\Vidly\bin\System.Web.Http.WebHost.xml
+C:\Users\nicolas.wolf\Desktop\Vidly\RandomStuff\Vidly\Vidly\bin\AutoMapper.dll
+C:\Users\nicolas.wolf\Desktop\Vidly\RandomStuff\Vidly\Vidly\bin\AutoMapper.xml
