@@ -1,43 +1,17 @@
+//import {Point} from './point'
+import { LikeComponent } from './LikeComponent'
 
 
-class Point { 
-     
-    //  private y: number;
-    //  private x: number;
-    
-    //  constructor(x?: number, y?: number) {
-    //      this.x = x;
-    //      this.y = y;
-    //  }
 
-    constructor(private _x?: number, private _y?: number) {
-        // creates class variables x and y and uses this.x = x
-    }
+let component = new LikeComponent(10, true)
+component.onClick();
+console.log(`likesCount:  ${component.likesCount}, isSelected ${component.isSelected}` )
 
+//tsc *.ts --target ES5
 
-    public draw() {
-        console.log('X '+  this._x + ', Y: ' + this._y);
-    }
-    
-
-    get x(){
-        return this._x;
-    }
-
-    set x(value) {
-        if(value < 0)
-            throw new Error('value can not be less then 0')
-        else{
-                this._x = value;
-            }
-    }
-
-}
-
-
-let point  = new Point(1,2);
-let x = point.x;
-point.draw();
+// let point  = new Point(1,2);
+// let x = point.x;
+// point.draw();
 
 
 
